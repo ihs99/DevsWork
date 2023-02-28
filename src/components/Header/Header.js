@@ -9,7 +9,7 @@ const Header = () =>  ( // 4 lineas mas abajo creamos un componente de estilo
   <Container> 
     <Div1> 
       <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: 'white', marginBottom: '20;'}}> 
+        <a style={{ display: "flex", alignItems: "center", color: 'white', marginBottom: '20px'}}> 
           <DiCssdeck size="3rem" /> <span>DevsWork </span> 
         </a>
       </Link>
@@ -29,7 +29,7 @@ const Header = () =>  ( // 4 lineas mas abajo creamos un componente de estilo
 
       <li>
         <Link href="#about"> 
-        <NavLink>What is</NavLink>
+        <NavLink>pepe</NavLink>
         </Link>
       </li>
     </Div2>

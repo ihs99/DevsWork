@@ -1,16 +1,16 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
+    title: 'Como funciona DevsWork?',
+    description: "Regístrese y complete el proceso de investigación, su perfil se presenta a las empresas durante dos semanas, recibe solicitudes de entrevistas en tu bandeja de entrada. Elige con quién entrevistarte. ¡Reciba ofertas y sea contratado!",  
+    image: '/images/1.png',
+    tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    title: 'Trabajos remotos',
+    description:"Encuentre los mejores trabajos de programación remota en todo el mundo aquí en DevsWork. ¡Busque trabajos de desarrollador de software 100% WFH que coincidan con su zona horaria y habilidades en las principales empresas y presente su solicitud hoy!",
     image: '/images/2.png',
     tags: ['React', 'JavaScript'],
     source: 'https://google.com',
@@ -18,8 +18,8 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+    title: 'Empresas remotas',
+    description: "¿Está buscando hacer un cambio de carrera y quiere un trabajo remoto? Encuentre las mejores empresas remotas para trabajar antes de presentar su solicitud. Explore los beneficios que ofrecen diferentes compañías remotas, como horario flexible, seguro médico, estipendio de oficina en casa y más. Obtenga información sobre más de 50000 empresas que están contratando de forma remota en 2023",
       image: '/images/3.jpg',
       tags: ['React', 'WebRTC'],
     source: 'https://google.com',
@@ -27,20 +27,21 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
+    title: 'Explorar salarios de desarrolladores',
+    description: "Emplee esta herramienta para contrastar los ingresos de los programadores a distancia en función de su tecnología y ubicación geográfica. Explore los promedios salariales de los desarrolladores de software remotos a nivel global y observe su correspondencia",
+    image: '/images/4.png',
     tags: ['React', 'ChatEngine', 'Firebase'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 3,
   },
 ];
-
+//aqui seria lo que le ponemos a la linea de tiempo
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 1, text: 'Candidatos receptivos', },
+  { year: 2, text: 'Desarrolladores de calidad', },
+  { year: 3, text: 'Transparencia que ahorra tiempo', },
+  { year: 4, text: 'Talento diversificado', },
+  { year: 5, text: 'Innovación constante', },
+  { year: 6, text: 'malpureno', },
 ];
