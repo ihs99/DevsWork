@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import {DiAws, DiAndroid, DiAptana, DiCode } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -9,38 +9,39 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Hire Developers</SectionTitle>
     <SectionText>
-    DevsWork es una plataforma líder en la contratación de desarrolladores de software independientes, codificadores remotos y consultores de ingeniería altamente cualificados. Nuestro riguroso proceso de selección garantiza que sólo le presentamos expertos verificados de primer nivel que han superado nuestra exhaustiva investigación, equiparable a los estándares de calidad del reconocido mercado tecnológico del Silicon Valley. Contamos con una amplia red de miles de ingenieros de software y programadores independientes disponibles para ser contratados por contrato. Ya sea que necesite contratar personal a corto plazo o desee expandir el equipo de ingeniería de su empresa, nuestro diverso grupo de desarrolladores independientes globales y remotos seguramente cumplirá con sus requisitos.
+    DevsWork is a leading platform for hiring freelance software developers, remote coders and highly skilled consultants. Their rigorous screening process ensures that they only feature top-tier, verified experts who have been thoroughly vetted. They have thousands of freelance software engineers and programmers available for hire on a contract basis, and can assist with short-term or long-term hiring for your company's engineering team.
     </SectionText>
     <List>
       <ListItem>
-        <DiFirebase size="3rem"/>
+        <DiAws size="3rem"/>
         <ListContainer> 
-          <ListTitle> fRONT-END</ListTitle>
+          <ListTitle>How to get started with DevsWork?</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js
+            -Order<br />
+            -Check <br/>
+            -contract
           </ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <DiReact size="3rem"/>
+        <DiAptana size="3rem"/>
         <ListContainer> 
-          <ListTitle> fRONT-END</ListTitle>
+          <ListTitle> Secure system</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.js y mongodb y Mysql
+            -Pay only when you contract <br />
+            -Risk-free guarantee
           </ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <DiZend size="3rem"/>
+        <DiCode size="3rem"/>
         <ListContainer> 
-          <ListTitle> UI</ListTitle>
+          <ListTitle>Your end-to-end remote recruitment solution</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Java, C#, JavaScript
+            -Permanent contracts<br />
+            -Contractors
           </ListParagraph>
         </ListContainer>
       </ListItem>

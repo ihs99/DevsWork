@@ -27,11 +27,6 @@ const Header = () =>  ( // 4 lineas mas abajo creamos un componente de estilo
         </Link>
       </li>
 
-      <li>
-        <Link href="#about"> 
-        <NavLink>pepe</NavLink>
-        </Link>
-      </li>
     </Div2>
 
     <Div3>

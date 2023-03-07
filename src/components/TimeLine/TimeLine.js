@@ -44,9 +44,9 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>Conozca a los desarrolladores remotos listos para entrevistas</SectionTitle>
+      <SectionTitle>Meet the remote developers ready for interviews</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+      DevsWork makes it easier than ever to find qualified full-time developer candidates with the programming skills you need. From front-end and back-end developers to full stack and DevOps engineers, your next hire is here.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
